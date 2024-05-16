@@ -6,21 +6,19 @@ title: About
 <!-- Nav pills -->
 <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link active" data-bs-toggle="pill" href="#摄影">Home</a>
+    <a class="nav-link active" data-bs-toggle="pill" href="#图片">图片</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="pill" href="#音乐">Menu 1</a>
+    <a class="nav-link" data-bs-toggle="pill" href="#音乐">音乐</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="pill" href="#美文">Menu 2</a>
+    <a class="nav-link" data-bs-toggle="pill" href="#美文">美文</a>
   </li>
 </ul>
  
 <!-- Tab panes -->
   <div class="tab-content">
-    <div id="摄影" class="container tab-pane active"><br>
-      <h3>摄影</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div id="图片" class="container tab-pane active"><br>
       <img src="https://img2.imgtp.com/2024/05/09/WCbyqwRb.jpg" class="d-block" style="width:100%">
     </div>
     <div id="音乐" class="container tab-pane fade"><br>
