@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #0000007e;
+    background-color: #2c2c31;
     padding: 10px;
   }
 
@@ -25,7 +25,7 @@
   }
 </style>
 
-<div class="navbar">
+<div class="navbar"style="position: fixed; top: 0; width: 100%; z-index: 1000;">
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" {% if page.url == item.link %}class="selected"{% endif %}>
       {{ item.name }}

@@ -3,7 +3,6 @@ layout: default
 title: About
 ---
 
-
 <html lang="en"> 
 <head> 
   <meta charset="utf-8">
@@ -11,40 +10,49 @@ title: About
     <title>About</title> 
     <style>
     body {
-      background-color: #000000
+      background-image: url('https://cdn.pixabay.com/photo/2024/01/08/21/31/frozen-8496388_1280.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin-top: -100px;
     }
     h1 {
       font-family: '楷体', sans-serif;
-      font-size: 48px;
-      color: #ffffff;
+      font-size: 50px;
+      color: #000000;
       text-align: center;
-      margin-top: 0px;
+      margin-top: 150px;
     }
+    .custom-container {   
+      width: 90%; /* 例如，设置为父元素宽度的80% */  
+      height: 2000px; */ /* 例如，设置固定高度为500px */ 
+      opacity: 0.5;  
+      background-color: rgba(255, 255, 255,0.5); /* 白色背景，不透明度 */  
+      padding: 100px; /* 添加内边距 */  
+      margin-top: 100px;
+      /*border: 1px solid #ccc; 添加边框 */  
+}
   </style>
 </head>
 
-<!-- Nav pills -->
-<ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" data-bs-toggle="pill" href="#图片">图片</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="pill" href="#音乐">音乐</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="pill" href="#美文">美文</a>
-  </li>
-</ul>
- 
-<!-- Tab panes -->
-  <div class="tab-content">
-    <div id="图片" class="container tab-pane active"><br>
-      <img src="https://img2.imgtp.com/2024/05/09/WCbyqwRb.jpg" class="d-block" style="width:50%">
-    </div>
-    <div id="音乐" class="container tab-pane fade"><br>
-      <h3></h3>
-    </div>
-    <div id="美文" class="container tab-pane fade"><br>
-      <h3></h3>
+<div class="container custom-container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="https://img2.imgtp.com/2024/05/17/d9IoQnOL.jpg" class="rounded" width="300" eight="300">
+      </div>
+      <div class="col-sm-8">
+        <h2>那时我们有梦，</h2>
+        <h2>关于文字，关于爱情，关于穿越世界的旅行。</h2>
+        <h2>如今我们深夜饮酒，</h2>
+        <h2>杯子碰到一起，</h2>
+        <h2>都是梦碎的声音。</h2>
+      </div>
     </div>
   </div>
+</div>
+
+
+  
+
+
