@@ -11,7 +11,7 @@ title: Home
   <meta charset="utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Hello, world!</title> 
+    <title>主页</title> 
     <style>
     body {
       background-image: url('https://img2.imgtp.com/2024/02/05/ptodI0qA.jpg');
@@ -22,36 +22,38 @@ title: Home
 
     h1 {
       font-family: '楷体', sans-serif;
-      /* 设置字体为Arial，如果不可用则使用无衬线字体 */
       font-size: 48px;
-      /* 设置字体大小为36像素 */
       color: #ffffff;
-      /* 设置字体颜色为白色（假设背景图片较暗） */
       text-align: center;
-      /* 设置文本水平居中对齐 */
       margin-top: 0px;
-      /* 假设你想把文字向下移动一些 */
     }
 
     .rounded {
-      border-radius: 10px;
-      /* 圆角大小 */
+      border-radius: 100px;
+      overflow: hidden;
       max-width: 100%;
-      /* 图像宽度适应容器宽度 */
-      height: auto;
-      /* 保持图像的原始宽高比 */
       display: block;
-      /* 消除图像下方可能出现的额外空间 */
       margin: 80px auto;
-      /* 上下外边距，并水平居中 */
-      /*border: 1px solid #271c52; /* 添加边框，3px宽，实线 */
-    }
+      animation: rotate 20s linear infinite; 
+    } 
+  
+    @keyframes rotate {  
+      from {  
+        transform: rotate(0deg); /* 开始时旋转0度 */  
+      }  
+      to {  
+        transform: rotate(360deg); /* 结束时旋转360度 */  
+      }  
+    }  
   </style>
 </head>
 
 <body>
-    <img src="https://img2.imgtp.com/2024/05/16/gWJzybOG.jpg" class="img-circle" alt="Cinque Terre" width="100"eight="100">
+    <img src="https://img2.imgtp.com/2024/05/16/gWJzybOG.jpg" class="rounded" alt="Rotating Image" width="100" eight="100">
     <h1>欢迎来到我的博客</h1>
 </body>
 
 </html>
+
+
+
