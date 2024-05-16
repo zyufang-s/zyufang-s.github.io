@@ -1,7 +1,34 @@
-<nav>
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: green;"{% endif %}>
-        {{ item.name }}
-      </a>
-    {% endfor %}
-  </nav>
+<style>
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0000007e;
+    padding: 10px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+    background-color: transparent; /* 设置按钮背景为透明 */
+    font-size: 18px;
+  }
+
+  .navbar a:hover {
+    background-color: rgb(179, 225, 240);
+  }
+
+  .navbar a.selected {
+    color: rgb(137, 241, 255);
+  }
+</style>
+
+<div class="navbar">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="selected"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</div>
