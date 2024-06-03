@@ -10,7 +10,7 @@ title: About
     <title>About</title> 
     <style>
     body {
-      background-image: url('https://cdn.pixabay.com/photo/2024/01/08/21/31/frozen-8496388_1280.jpg');
+      background-image: url('assets/image/image1.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
