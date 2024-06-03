@@ -10,7 +10,7 @@ title: About
     <title>About</title> 
     <style>
     body {
-      background-image: url('assets/image/image1.png');
+      background-image: url('assets/image/image4.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -39,14 +39,12 @@ title: About
   <div class="jumbotron">
     <div class="row">
       <div class="col-sm-4">
-        <img src="https://img2.imgtp.com/2024/05/17/d9IoQnOL.jpg" class="rounded" width="300" eight="300">
+        <img src="assets/image/image.png" class="rounded" width="200" eight="200">
       </div>
       <div class="col-sm-8">
         <h2>那时我们有梦，</h2>
-        <h2>关于文字，关于爱情，关于穿越世界的旅行。</h2>
-        <h2>如今我们深夜饮酒，</h2>
-        <h2>杯子碰到一起，</h2>
-        <h2>都是梦碎的声音。</h2>
+        <h2>关于文字，关于爱情，</h2>
+        <h2>关于穿越世界的旅行。</h2>
       </div>
     </div>
   </div>
