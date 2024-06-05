@@ -40,6 +40,7 @@ GEM
     google-protobuf (4.27.0-x86_64-linux)
       bigdecimal
       rake (>= 13)
+    htmlentities (4.3.4)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
@@ -71,11 +72,17 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    kramdown-plantuml (1.3.3)
+      htmlentities (~> 4)
+      kramdown (~> 2.3)
+      kramdown-parser-gfm (~> 1.1)
+      open3 (~> 0.1)
     liquid (4.0.4)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    open3 (0.2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.5)
@@ -170,6 +177,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-seo-tag
+  kramdown-plantuml
 
 BUNDLED WITH
    2.5.10
